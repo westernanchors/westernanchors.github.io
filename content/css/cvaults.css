@@ -1,0 +1,172 @@
+﻿html, body { background-color: #d2d2d2; }
+body { font: 400 14px/1 Lato, Arial, sans-serif; }
+
+#page-wrap { background-color: #fff; background-image: none; color: #111; margin: 0 auto; max-width: 100%; }
+
+#site-head header { border-bottom: solid 1px #e2e2e2; }
+.home #site-head header { border-bottom: 0; }
+#site-head .logo { float: left; }
+#site-head .head-bot #site-nav .content-wrap { position: relative; }
+#site-nav .content-wrap > div { position: absolute; bottom: 0; right: auto; width: calc(100% - 200px); table-layout: auto; left: 200px; }
+#site-head a { color: #111; }
+#site-nav a span { padding: 0; position: relative; }
+
+.page-hero { text-transform: uppercase !important; }
+.page-hero h1 { color: #fff; font-size: 48px; }
+.page-hero h1 sup { color: #fff; margin-top: 30px; font-size: 21px; }
+.page-hero h1 small { display: block; color: #fff; text-transform: none !important; font-size: 100%; margin-top: 10px; }
+
+.logo-list-section { border: 0; margin-bottom: 50px !important; }
+.logo-list-section h2 { text-align: center; text-transform: uppercase; margin-top: 40px; padding-bottom: 24px; font-size: 36px; margin-bottom: 0; }
+.logo-list-section li:before { display: none; }
+
+
+.head-block { position: relative; text-align: center; }
+.head-block:before, .std-ctnt h2:before { position: absolute; top: 60px; left: 50%; margin-left: -100px; background: #977611; height: 4px; width: 200px; content: ' '; }
+.head-block p:first-of-type { font-size: 14px; }
+
+#site-foot { background-color: #d2d2d2; font-size: 14px; color: #000; }
+#site-foot .logo-list-section { margin-bottom: 0 !important; }
+#site-foot footer { padding-top: 20px; }
+
+#cvaults .pallion-company { color: #000 !important; font-size: 12px; text-align: center; margin-top: 50px; }
+#cvaults .pallion-company img { height: 45px; display: block; margin: 0 auto 10px; }
+
+
+.fancy-break { height: 4px !important; }
+.less-fancy-break { text-align: center; }
+.less-fancy-break span { display: inline-block; max-width: 220px; height: 4px; }
+.less-fancy-break span:before { width: 200px; }
+
+.head-block.no-top:before { display: none; }
+
+.std-ctnt h1 { text-align: center; }
+h2, .std-ctnt h2 { font-size: 27px; text-align: center; text-transform: uppercase; margin-bottom: 0.45em; padding-top: 50px; }
+.std-ctnt h2:before { top: 0; left: 50%; margin-left: -100px; }
+
+.contact-us-section { position: relative; }
+.contact-us-section .bg-ol { background: rgba(0, 0, 0, .7); }
+.contact-us-section .content-wrap { height: 520px; padding: 70px 0 50px; }
+.ctct-blocks-wrap { color: #fff; }
+.ctct-blocks-wrap a { color: inherit; }
+.ctct-blocks-wrap h1 { font-size: 21px; margin: 0 0 1em; text-transform: uppercase; font-weight: 700; }
+.ctct-blocks-wrap .block-content { text-transform: none !important; float: left; background: #95792b; padding: 30px; }
+
+
+.contact-us-section h5 { margin-top: 20px; margin-bottom: 15px; }
+
+.std-ctnt .fancy-break { text-align: center; max-width: 220px; margin: 0 auto; }
+.fancy-break { max-width: 740px; }
+.fancy-break span:before { width: 100%; height: 3px; }
+.fancy-break span { height: 4px; }
+
+.alternating-block .content-wrap > div { padding: 50px 0; border-bottom: solid 1px #ccc; }
+.alternating-block .content-wrap > div:last-child { border-bottom: 0; }
+
+#main-content > section.std-ctnt, .video-text .media-block { max-width: 1110px; }
+
+#site-head .header-buttons {
+    
+    display: block;
+}
+#site-head .header-buttons .btn {
+    float: none;
+    min-width: 0;
+    height: 25px;
+    margin-right: 0;
+
+    line-height: 25px;
+    font-size: 11px;
+    padding: 0 12px;
+    color: #fff;
+}
+
+#SOWidget {
+    right: 5px !important;
+}
+
+@media only screen and (min-width: 768px) {
+    #site-head { height: 140px; }
+
+    #site-head header { background-image: none; background-color: #fff; }
+    #site-head .head-top { padding-top: 0; }
+    #site-head .logo { margin: 28px 0 22px; }
+
+    #site-head .header-buttons {
+        float: right;
+        margin: 22px 5px 0 0;
+    }
+    #site-head .header-buttons .btn {
+        float: right;
+        margin-right: 10px;
+    }
+    #site-head .head-srch, #site-head .tel { margin-top: 18px; }
+    #site-head .head-srch .txt:before { background-position: -62px 0; }
+    #site-head .head-srch input[type="text"] { color: #fff; }
+
+    #site-nav a { padding: 0 15px 40px; height: 40px; vertical-align: middle; }
+    #site-nav a:after { content: ''; position: absolute; left: 0; bottom: 0; right: 0; height: 5px; background: rgba(0,0,0,0); -moz-transition: all .2s; -o-transition: all .2s; -webkit-transition: all .2s; transition: all .2s; }
+    #site-nav a span:before { background-color: rgba(17, 17, 17, 0.2); bottom: auto; top: 50%; height: 20px; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); left: -15px; }
+    #site-nav a:first-child { padding-left: 0; }
+    #site-nav a:last-child { padding-right: 0; }
+
+    .head-srch-open #site-head .head-srch .txt:before { background-position: -64px -20px; }
+    .head-srch-open #site-head .head-srch { background-color: #111; }
+
+    #site-head .head-bot { box-shadow: none; }
+}
+
+@media only screen and (max-width: 767px) {
+    #site-head .head-top { background: #fff !important; }
+    #mmenu ul a { color: #fff !important; }
+    #site-head .header-buttons 
+    {
+        margin-top: 15px;
+    }
+    #site-head .header-buttons .btn 
+    {
+        margin-top: 10px;
+    }
+    .logo-list-section {
+        padding: 0;
+    }
+    .logo-list-section h2 { margin-top: 0; font-size: 24px; }
+
+    .page-hero h1 { font-size: 24px; line-height: 1.3; }
+    .page-hero h1 sup { font-size: 16px; }
+    .page-hero h1 small { margin-top: 15px; color: #ccc; }
+    .page-hero { padding: 0 !important; min-height: 0 !important; }
+    .page-hero .content-wrap { padding: 0 !important; height: 320px !important; }
+
+    .std-ctnt h1 { text-align: center; }
+    .head-block { padding-top: 60px !important; }
+    .head-block:before { top: 40px; }
+
+    .video-text h2 { padding-top: 20px !important; }
+
+    .ctct-blocks-wrap { padding: 0; }
+    .ctct-blocks-wrap .block-content { float: none; max-width: none !important; padding: 30px !important; }
+
+    .page-hero .btn
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    #SOWidget, 
+    #SOWidget * 
+    {
+        box-sizing: border-box;
+    }
+    #SOWidget 
+    {
+        border: 0 !important;
+    }
+    #SOEmailButton
+    {
+        margin-left: 0 !important;
+    }
+}
+#site-head .tel { color: #111; }
+
+

@@ -1,0 +1,95 @@
+﻿html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+sup { vertical-align: super; font-size: .5em; }
+sub { vertical-align: sub; font-size: .5em; }
+strong { font-weight: bold; }
+b { font-weight: bolder; }
+body { line-height: 1; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none outside none; }
+blockquote /*,
+q*/ { quotes: none; }
+blockquote:before, blockquote:after /*,
+q:before, q:after*/ { content: ''; content: none; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; border: 0; outline: 0; color: #797056; text-decoration: none; -moz-transition: background-color 0.1s ease 0s; -o-transition: background-color 0.1s ease 0s; -webkit-transition: background-color 0.1s ease 0s; transition: background-color 0.1s ease 0s; }
+a:hover { text-decoration: underline; -moz-transition: background-color .2s ease 0s; -o-transition: background-color .2s ease 0s; -webkit-transition: background-color .2s ease 0s; transition: background-color .2s ease 0s; }
+
+/* normalize form elements */
+button,
+input,
+select,
+textarea { font: inherit; font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; color: inherit; }
+button,
+input { line-height: normal; }
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] { -webkit-appearance: button; cursor: pointer; *overflow: visible; }
+button[disabled],
+input[disabled] { cursor: default; }
+input[type="checkbox"],
+input[type="radio"] { vertical-align: middle; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; *height: 13px; *width: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner,
+input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; }
+
+/* change colours to suit your needs */
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+/* change colours to suit your needs */
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* change border colour to suit your needs */
+.hr { display: block; height: 2px; border: 0; margin: 15px auto; padding: 0; }
+td, th, input, select { vertical-align: middle; }
+
+/* group */
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.group { display: inline-block; }
+
+/* Hide from IE-mac */
+* html .group { height: 1%; }
+.group { display: block; }
+.clear { clear: both; }
+.left { float: left; }
+.right { float: right; }
+.no-float { float: none !important; }
+.t-upper { text-transform: uppercase; }
+.t-none { text-transform: none; }
+.t-center { text-align: center; }
+.v-top { vertical-align: top; }
+.v-mid { vertical-align: middle; }
+.no-padd { padding: 0 !important; }
+.no-marg { margin: 0 !important; }
+.no-bdr { border: 0 !important; }
+
+/*********************************************************************/
+/* BEGIN DEV */
+#slice-menu { position: fixed; top: 0; left: 0; max-height: calc(100% - 100px); max-width: 80%; overflow-y: auto; -moz-transform: translate(10%, -110%); -ms-transform: translate(10%, -110%); -o-transform: translate(10%, -110%); -webkit-transform: translate(10%, -110%); transform: translate(10%, -110%); background: #fff; border: 1px solid #797056; line-height: 1.3em; color: #797056; z-index: 9998; display: block; font-family: Replica, Arial, Verdana; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 3px 3px 5px rgba(106, 98, 76, 1); -moz-box-shadow: 3px 3px 5px rgba(106, 98, 76, 1); -ms-box-shadow: 3px 3px 5px rgba(106, 98, 76, 1); -o-box-shadow: 3px 3px 5px rgba(106, 98, 76, 1); box-shadow: 3px 3px 5px rgba(106, 98, 76, 1); -moz-transition: transform 500ms ease-in 0s; -o-transition: transform 500ms ease-in 0s; -webkit-transition: transform 500ms ease-in 0s; transition: transform 500ms ease-in 0s; }
+#slice-menu.open { -moz-transform: translate(10%, 50px); -ms-transform: translate(10%, 50px); -o-transform: translate(10%, 50px); -webkit-transform: translate(10%, 50px); transform: translate(10%, 50px); -moz-transition: transform 500ms ease-out 0s; -o-transition: transform 500ms ease-out 0s; -webkit-transition: transform 500ms ease-out 0s; transition: transform 500ms ease-out 0s; }
+#slice-menu .pg { color: #000; font-family: monospace; }
+#slice-menu ul { list-style: circle outside none; font-weight: 400; margin: 0 0 0 20px; padding: 20px 20px 20px 15px; }
+#slice-menu li { font-weight: 700; position: relative; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+#slice-menu ul ul { list-style: disc outside none; padding: 0; }
+#slice-menu ul ul ul { list-style: square outside none; }
+#slice-menu ul a { color: #797056; font-weight: 400; }
+#slice-menu .sub { list-style-type: none; }
+#slice-menu .sub + li { margin: 5px 0 0; }
+#slice-menu .d:before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; min-width: 100%; min-height: 100%; background: rgba(255, 255, 255, .8); z-index: 1; }
+#slice-menu .title { list-style: none outside none; font-weight: 700; margin-top: 10px; color: #797056; }
+.slice-menu-inline { text-align: center; }
+.slice-menu-inline #slice-menu { position: static !important; margin: 50px; width: auto; display: inline-block; text-align: left; max-width: 300px; -moz-transform: none; -ms-transform: none; -o-transform: none; -webkit-transform: none; transform: none; }
+/* END DEV */

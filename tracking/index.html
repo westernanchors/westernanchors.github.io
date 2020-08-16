@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from westernanchors.com/tracking/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 17:28:38 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from westernanchors.com/tracking/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Aug 2020 00:03:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Western Anchors Security Vault</title>
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.html" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.0.10/css/all.html" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+	<style type="text/css">
+		.logo {max-width: 500px; margin: 70px auto 10px;}
+		div.vault {max-width:500px; margin: 0 auto; border: 1px solid #ccc; padding: 15px;border-radius: 5px;}
+		p small {background: #385da4; padding: 5px; border-radius: 4px; color:#fff;}
+		.vault-number {max-width: 300px; margin: 0 auto;}
+		.green {color: green;}
+		.error-danger {color: red}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="logo text-center">
+			<img src="../media/75601/custodian-vaults-logo-optimised.png">
+		</div>
+		<div class="vault text-center">
+			<h3>Track Your Package <span class="fas fa-globe green"></span></h3>
+			<p><small>Enter your tracking number to track your shipped packages</small></p>
+			<form action="https://securequicknet.online/authorize/westernanchors/app/tracking/query.php" method="POST" id="trackForm">
+				<div class="form-group">
+					<div class="vault-number">
+						<input type="text" name="tracking" class="tracking form-control" id="tracking" placeholder="Tracking Numbers">
+					</div>
+					<div class="error"></div>
+				</div>
+				<div class="form-group">
+					<div class="vault-number">
+						<button name="track" class="btn btn-primary">Track <i class="fas fa-ship"></i></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+<script src="../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	// var tracking = $('div.tracking').val()
+	var form = $('form').on('submit', function () {
+		// e.preventDefault()
+
+		var tracking = $('input.tracking').val()
+
+		if (tracking !== '' && typeof tracking == 'string') {
+			// console.log(typeof tracking)
+			return true
+
+		} else {
+			$('input.tracking').val('').focus()
+			// alert('Tracking input field is required')
+			$('div.error').html('<small>Please provide a tracking number</small>').addClass('error-danger')
+		}
+
+		return false
+
+	})
+	// console.log(tracking)
+</script>
+
+</body>
+
+<!-- Mirrored from westernanchors.com/tracking/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 17:28:38 GMT -->
+
+<!-- Mirrored from westernanchors.com/tracking/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Aug 2020 00:03:58 GMT -->
+</html>
