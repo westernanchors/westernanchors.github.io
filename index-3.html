@@ -33,9 +33,9 @@
 <link href="content/css/cvaults.css" rel="stylesheet"/>
 <link href="content/css/320-767.css" rel="stylesheet"/>
 <link href="content/css/custom.css" rel="stylesheet"/>
-<title>Safety Deposit Box &amp; Secure Storage Brussels| Western Anchors</title>
+<title>Safety Deposit Box &amp; Secure Storage London| Western Anchors</title>
 
-    <meta name="description" content="Brussels’s premier private safety deposit boxes. Our purpose built secure storage facility features cutting edge technology. Book a tour today." />
+    <meta name="description" content="London’s premier private safety deposit boxes. Our purpose built secure storage facility features cutting edge technology. Book a tour today." />
 
 
 <link rel="shortcut icon" href="media/75589/custodian-vaults-favicon-optimised298a298a298a.png?width=64&amp;height=64" type="image/x-icon" />
@@ -256,7 +256,7 @@ Partners                                            </a>
 <section class="" style="margin: 0 auto;line-height: 25px; font-size: 14px;">
     <div class="content-wrap">
         <div class="media-block">
-            <h1>The Difference <br><small>Western Anchors is Belgium's premier independent safety deposit box facility.</small></h1>
+            <h1>The Difference <br><small>Western Anchors is United Kingdom's premier independent safety deposit box facility.</small></h1>
             
             <div class="vid-wrap">
                
@@ -269,7 +269,7 @@ Partners                                            </a>
             </div>
 
             <div class="text-wrap">
-                <p>Independent of the Belgium banking system, Western Anchors offers state-of-the-art facilities with 24-hour physical monitoring, bio-metric security and access 6 days per week. We have engaged the most professional experts with decades of experience in secure storage.</p>
+                <p>Independent of the United Kingdom banking system, Western Anchors offers state-of-the-art facilities with 24-hour physical monitoring, bio-metric security and access 6 days per week. We have engaged the most professional experts with decades of experience in secure storage.</p>
 <p>Western Anchors personal safety deposit boxes are available in a range of sizes designed to hold weights of up to 240 kilograms and are customised to meet the most stringent security requirements.  A host of membership privileges accompany securing a personal safety deposit box, including a unique set of value-added services for those requiring the purchase, sale and storage of bullion.</p>
 <p>Whether you wish to safely secure your bullion, important documents, data, precious jewellery and other valuables, you can place trust in our complete confidentiality, maximum security and full insurance coverage backed by extensive experience and solid financial grounding.</p>
 <p>Western Anchors. Vault with Confidence.</p>
@@ -343,13 +343,13 @@ Partners                                            </a>
 
 <section class="page-heros no-carousel">
         <a href="sizes-prices/index.html" class="page-hero bg-scroll">
-            <div class="bg" style="background-image: url('media/75599/custodian-vaults-Brussels-optimised805180518051.html?mode=crop&amp;width=1920&amp;height=520');">
+            <div class="bg" style="background-image: url('media/75599/custodian-vaults-London-optimised805180518051.html?mode=crop&amp;width=1920&amp;height=520');">
             </div>
             <div class="content-wrap">
                 <div class="content align-middle">
                         <h1 class="text-center">
-                            Belgium's Most Secure <br />Private Vault
-                            <sup>Private safety deposit boxes located in Brussels<br />with multi level security access</sup>
+                            United Kingdom's Most Secure <br />Private Vault
+                            <sup>Private safety deposit boxes located in London<br />with multi level security access</sup>
                         </h1>
 
                     <div class="text-center">
@@ -367,7 +367,7 @@ Partners                                            </a>
             <h2>Safety Deposit Box Benefits</h2>
         
         <div class="head-block lead-less no-top">
-            <p style="text-align: center;"><img style="width: 12px; height:12px;" src="media/75600/custodian-vaults-tick-icon-optimised1c411c411c41.png?width=12&amp;height=12" alt="Western Anchors Tick Icon" data-id="3792"> Discreetly located in heart of Brussels, Western Anchors is a purpose built high-tech facility</p>
+            <p style="text-align: center;"><img style="width: 12px; height:12px;" src="media/75600/custodian-vaults-tick-icon-optimised1c411c411c41.png?width=12&amp;height=12" alt="Western Anchors Tick Icon" data-id="3792"> Discreetly located in heart of London, Western Anchors is a purpose built high-tech facility</p>
 <p style="text-align: center;"><img style="width: 12px; height:12px;" src="media/75600/custodian-vaults-tick-icon-optimised1c411c411c41.png?width=12&amp;height=12" alt="Western Anchors Tick Icon" data-id="3792"> Privately owned with no ties to banking and government bodies</p>
 <p style="text-align: center;"><img style="width: 12px; height:12px;" src="media/75600/custodian-vaults-tick-icon-optimised1c411c411c41.png?width=12&amp;height=12" alt="Western Anchors Tick Icon" data-id="3792"> A multi-layered approach to security including bio-metric identification and overseen 24/7 by licenced industry professionals</p>
 <p style="text-align: center;"><img style="width: 12px; height:12px;" src="media/75600/custodian-vaults-tick-icon-optimised1c411c411c41.png?width=12&amp;height=12" alt="Western Anchors Tick Icon" data-id="3792"> Flexible and convenient operating hours, including Saturdays</p>
@@ -394,7 +394,7 @@ Partners                                            </a>
                 </div>
                 <div class="copy">
                     <!-- P: <a href="tel:+61 2 9011 7355">+61 2 9011 7355</a> | F: +61 2 9221 6358<br/> -->
-                    A: Square de Meeûs  65, 1000 Brussels, Belgium<br/><br/>
+                    A: Square de Meeûs  65, 1000 London, United Kingdom<br/><br/>
                     Copyright &#169; 2018 Western Anchors
                 </div>
             </div>
