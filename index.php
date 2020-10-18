@@ -74,12 +74,12 @@
         <div class="dropdown"> <a>
           <button class="dropbtn"></button>
           </a>
-          <div class="dropdown-content"> <a href="index-2.html">Home</a> <a href="about.html">About Us</a> <a href="our-evolution.html">Our Evolution</a> <a href="structure.html">Company's Structure</a> <a href="career.html">Career information</a> <a href="5-ocean-freight.html">Ocean Freight</a> <a href="offshore-transshipment-oil.html">Air Freight</a> <a href="shipping-and-chartering.html">Inland Trucking</a> <a href="rental-and-other-services.html">Storage & Insurance</a> <a href="investors-general-info.html">investors</a> <a href="track/index.html">Track Your Parcel</a> <a href="contact.html">Contact Us</a> </div>
+          <div class="dropdown-content"> <a href="index-2.html">Home</a> <a href="about.html">About Us</a> <a href="our-evolution.html">Our Evolution</a> <a href="structure.html">Company's Structure</a> <a href="career.html">Career information</a> <a href="5-ocean-freight.html">Ocean Freight</a> <a href="offshore-transshipment-oil.html">Air Freight</a> <a href="shipping-and-chartering.html">Inland Trucking</a> <a href="rental-and-other-services.html">Storage & Insurance</a> <a href="investors-general-info.html">investors</a> <a href="track/index.php">Track Your Parcel</a> <a href="contact.html">Contact Us</a> </div>
         </div>
       </div>
       <!-- Search Start -->
       <div class="dropdown header-search-bar">
-        <form action="https://www.alphacourierservice.com/index.html">
+        <form action="https://www.alphacourierservice.com/index.php">
           <span class="" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></span>
           <input placeholder="kyewords.." class="dropdown-menu search-box" type="search">
         </form>
@@ -107,7 +107,7 @@
             </ul>
           </li>
           <li><a href="investors-general-info.html">investors</a></li>
-          <li><a href="track/index.html">Track Your Parcel</a> </li>
+          <li><a href="track/index.php">Track Your Parcel</a> </li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -558,7 +558,7 @@
             <h3 class="footer-wiz-title">Usefull Links</h3>
             <ul>
               <li><a href="#">Create Shipping</a></li>
-              <li><a href="track/index.html">Tracking</a></li>
+              <li><a href="track/index.php">Tracking</a></li>
               <li><a href="#">Tracking Result</a></li>
             </ul>
           </div>
@@ -571,7 +571,7 @@
               <li><span>Sun:</span> <span class="text-right">Closed</span></li>
             </ul>
             <div class="newsletter">
-              <form action="https://www.alphacourierservice.com/index.html">
+              <form action="https://www.alphacourierservice.com/index.php">
                 <input placeholder="Enter your email" class="news-input" type="text">
                 <button type="submit" value="" class="news-btn"><i class="fa fa-location-arrow"></i></button>
               </form>
