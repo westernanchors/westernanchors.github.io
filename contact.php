@@ -185,49 +185,150 @@ The best logistic company, <span>FAST</span> and <span>SAFELY!</span></h4></div>
             
             
          </div>
+
          <div class="col-12 col-lg-8">
             <div class="contact-text">
               <h3>We are Always <span>with you!</span></h3>
               <img src="media/contact-image.jpg" alt="">
             </div>
-            <div class="contact-form">
-               <h3 class="heading3-border text-uppercase">Quick Feedback Form</h3>
-                
-              <form action="https://getsimpleform.com/messages?form_api_token=15fe110582ea91a9d295189eb8fe03e3" method="post">
 
-                <input type='hidden' name='redirect_to' value="https://westernanchors.com/thank-you.html">
 
-                  <div class="form-group">
-                     <div class="row">
-                       <div class="col-12 col-lg-6">
-                        <input class="form-control" placeholder="Your Full Name" name="fullname" required type="text">
-                       </div> 
-                       <div class="col-12 col-lg-6">
-                        <input class="form-control" placeholder="Company" name="company" required type="text">
-                       </div> 
-                     </div>   
-                   </div>
-                   <div class="form-group">
-                     <div class="row">
-                       <div class="col-12 col-lg-6">
-                        <input class="col-xs-12 col-md-6 form-control" placeholder="Email" name="email" required type="email">
-                       </div>
-                       <div class="col-12 col-lg-6">  
-                        <input class="col-xs-12 col-md-6 form-control" placeholder="Phone Number" name="phone" type="text">
-                       </div>  
-                     </div>   
-                   </div>
-                   <div class="form-group">
-                        <textarea class="form-control" placeholder="Message" name="message"></textarea>
-                   </div>
-                   <div class="form-group">
-                     <div style="margin-top: 10px; margin-bottom: 10px" data-netlify-recaptcha="true"></div>
-                   </div>
-                    <div class="form-group">
-                       <button type="submit" class="btn btn-submit" name="contact">Submit</button>
-                    </div>
-                </form>
-           </div>  
+
+            <!-- Contact -->
+            
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.21091" type="text/javascript"></script>
+<script type="text/javascript">
+  JotForm.init(function(){
+if (window.JotForm && JotForm.accessible) $('input_5').setAttribute('tabindex',0);
+  JotForm.newDefaultTheme = true;
+  JotForm.extendsNewTheme = false;
+  JotForm.newPaymentUIForNewCreatedForms = true;
+  JotForm.newPaymentUI = true;
+      JotForm.alterTexts(undefined);
+  JotForm.clearFieldOnHide="disable";
+  JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+  });
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"quickFeedback","qid":"1","text":"QUICK FEEDBACK FORM","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,{"description":"","name":"contact","qid":"4","text":"Contact","type":"control_fullname"},{"description":"","name":"message","qid":"5","subLabel":"","text":"Message","type":"control_textarea"},null,{"description":"","name":"name7","qid":"7","text":"Name","type":"control_fullname"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"quickFeedback","qid":"1","text":"QUICK FEEDBACK FORM","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,{"description":"","name":"contact","qid":"4","text":"Contact","type":"control_fullname"},{"description":"","name":"message","qid":"5","subLabel":"","text":"Message","type":"control_textarea"},null,{"description":"","name":"name7","qid":"7","text":"Name","type":"control_fullname"}]);}, 20); 
+</script>
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.21091" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.21091" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.21091" />
+<form class="jotform-form" action="https://submit.jotform.com/submit/202926102314039/" method="post" name="form_202926102314039" id="202926102314039" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="202926102314039" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-large">
+          <div class="header-text httal htvam">
+            <h1 id="header_1" class="form-header" data-component="header">
+              QUICK FEEDBACK FORM
+            </h1>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_7">
+        <label class="form-label form-label-top form-label-auto" id="label_7" for="first_7">
+          Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_7" class="form-input-wide jf-required" data-layout="full">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_7" name="q7_name7[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_7 sublabel_7_first" required="" />
+              <label class="form-sub-label" for="first_7" id="sublabel_7_first" style="min-height:13px" aria-hidden="false"> First Name </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_7" name="q7_name7[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_7 sublabel_7_last" required="" />
+              <label class="form-sub-label" for="last_7" id="sublabel_7_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_4">
+        <label class="form-label form-label-top form-label-auto" id="label_4" for="first_4">
+          Contact
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_4" class="form-input-wide jf-required" data-layout="full">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_4" name="q4_contact[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_4 sublabel_4_first" required="" />
+              <label class="form-sub-label" for="first_4" id="sublabel_4_first" style="min-height:13px" aria-hidden="false"> Email Address </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_4" name="q4_contact[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_4 sublabel_4_last" required="" />
+              <label class="form-sub-label" for="last_4" id="sublabel_4_last" style="min-height:13px" aria-hidden="false"> Telephone </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textarea" id="id_5">
+        <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5">
+          Message
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_5" class="form-input-wide jf-required" data-layout="full">
+          <textarea id="input_5" class="form-textarea validate[required]" name="q5_message" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_5"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide" data-layout="full">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="202926102314039" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='202926102314039'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "202926102314039-202926102314039";
+}
+  </script>
+  <div class="formFooter-heightMask">
+  </div>
+ 
+</form>
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.21091"></script>
+<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.21091"></script>
+
+
+
+
+
+            <!-- End contact -->
+
+
+
          </div>
       </div>
     </div>
